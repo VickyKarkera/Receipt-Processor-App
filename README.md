@@ -25,8 +25,7 @@ This service calculates points based on receipt data provided by users. Points a
 
 3. Build Docker image:
     ```bash
-    docker build receipt-app
-    python app.py
+    docker build . -t receipt-app
     ```
 
 4. Run FLask App in Docker Container forwarded to port 5000, two ways:
