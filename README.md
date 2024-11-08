@@ -51,11 +51,11 @@ This service calculates points based on receipt data provided by users. Points a
 
 6. Put the url for the request as http://localhost:5000/receipts/process and hit send. This will generate a unique random id.
 
-[![POST Request](images/POST.png) 
+![POST Request](images/POST.png) 
 
 7. Copy the id and insert it in place of the placeholder ( {id} ) within the link - http://localhost:5000/receipts/{id}/points and open it in the browser.
    
-[![GET Request](images/GET.png)
+![GET Request](images/GET.png)
 
 
 
